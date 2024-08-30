@@ -7,7 +7,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="section">
+    <div id="contact" class="section">
         <div class="form-container">
             <img
                 src="/public/img/bocom_logo_mit_Claim_darunter_Marketing_für_Apotheken_tme.png"

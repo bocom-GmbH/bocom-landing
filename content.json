@@ -83,10 +83,34 @@
             "link": "Apotheke Mariahilf"
         },
         {
-            "image": "client2.png",
-            "name": "Kunden",
-            "description": "„Wir haben unseren Kundenfrequenz innerhalb von 2 Jahren verdreifacht!",
-            "logo": "client1.png",
+            "image": "client1.webp",
+            "name": "Kunde 1 mit langem Namen Asd qswswswsws",
+            "description": "„Wir haben unseren Kundenfrequenz innerhalb von 2 Jahren verdreifacht!„",
+            "logo": "client-logo1.png",
+            "link_url": "https://www.bocom.at",
+            "link": "Apotheke Mariahilf"
+        },
+        {
+            "image": "client1.webp",
+            "name": "Kunde 1 mit langem Namen Asd qswswswsws",
+            "description": "„Wir haben unseren Kundenfrequenz innerhalb von 2 Jahren verdreifacht!„",
+            "logo": "client-logo1.png",
+            "link_url": "https://www.bocom.at",
+            "link": "Apotheke Mariahilf"
+        },
+        {
+            "image": "client1.webp",
+            "name": "Kunde 1 mit langem Namen Asd qswswswsws",
+            "description": "„Wir haben unseren Kundenfrequenz innerhalb von 2 Jahren verdreifacht!„",
+            "logo": "client-logo1.png",
+            "link_url": "https://www.bocom.at",
+            "link": "Apotheke Mariahilf"
+        },
+        {
+            "image": "client1.webp",
+            "name": "Kunde 1 mit langem Namen Asd qswswswsws",
+            "description": "„Wir haben unseren Kundenfrequenz innerhalb von 2 Jahren verdreifacht!„",
+            "logo": "client-logo1.png",
             "link_url": "https://www.bocom.at",
             "link": "Apotheke Mariahilf"
         }

@@ -12,6 +12,13 @@ function handleMouseEnter() {
 function handleMouseLeave() {
     isHovered.value = false
 }
+
+function handleClick() {
+    document.getElementById('contact')?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+    })
+}
 </script>
 
 <template>
@@ -19,6 +26,7 @@ function handleMouseLeave() {
         :class="['call-to-action-button', { isHovered: isHovered, isFocused: isFocused }]"
         @mouseenter="handleMouseEnter"
         @mouseleave="handleMouseLeave"
+        @click="handleClick"
     >
         <slot></slot>
     </button>

@@ -1,9 +1,12 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, inject } from 'vue'
+
 import '../assets/main.css'
 
 const isHovered = ref(false)
 const isFocused = ref(false)
+
+const isOpen = inject('isOpen')
 
 function handleMouseEnter() {
     isHovered.value = true
@@ -14,10 +17,7 @@ function handleMouseLeave() {
 }
 
 function handleClick() {
-    document.getElementById('contact')?.scrollIntoView({
-        behavior: 'smooth',
-        block: 'center'
-    })
+    isOpen.value = true
 }
 </script>
 

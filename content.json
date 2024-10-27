@@ -16,8 +16,39 @@
         "title": "MARKETING FÜR APOTHEKEN",
         "desctiption": "Mache ihre Apotheke sichtbar und steigere den Umsatz ihres Privatgeschäfts mit den richtigen Marketingmaßnahmen."
     },
+    "list2": {
+        "title": "…aber ihre Marketingmaßnahmen sind wirkungslos wenn…",
+        "first": [
+            {
+                "title": "Branchenfremde Werbeagenturen beauftragen:",
+                "description": "Kreativ- oder Standard-Agenturen verstehen nicht die speziellen Bedürfnisse und Herausforderungen von Apotheken, was zu ineffizienten und unpassenden Marketingstrategien führt."
+            },
+            {
+                "title": "Ihnen ein Marketing-Experte fehlt:",
+                "description": "Ohne einen spezialisierten Marketing-Coach, der sich mit den spezifischen Anforderungen und Abläufen einer Apotheke auskennt, fehlt Ihnen die notwendige Unterstützung für fundierte Marketingentscheidungen."
+            },
+            {
+                "title": "Sie kein spezielles Programm für ihre Stammkunden anbieten:",
+                "description": "Diese wertvolle Kunden müssen kontinuierlich betreut und bedient werden. Ein gut durchdachtes Kundenbindungsprogramm, wie eine Treue-App, ist unerlässlich, erfordert jedoch Expertise und Erfahrung."
+            }
+        ],
+        "secound": [
+            {
+                "title": "...die Apotheken-Zeitschrift nicht ihre Kundschaft anspricht:",
+                "description": "Unzureichender Inhalt und mangelnde Relevanz führen dazu, dass Ihre Kundenzeitschrift nicht gelesen wird und somit keinen Einfluss auf die Kundenbindung und den Umsatz hat."
+            },
+            {
+                "title": "...Ihr Online-Shop sich nur über den Preis definiert:",
+                "description": "Kunden erwarten von ihre persönliche Apotheke mehr als nur günstige Preise. Hochwertige Inhalte und besondere Serviceleistungen sind entscheidend, um sich von Billiganbietern zu unterscheiden."
+            },
+            {
+                "title": "...Ihre Apotheke keine unverwechselbare Identität besitzt:",
+                "description": "Wenn eine Apotheke der anderen gleicht, können Kunden keine persönliche Bindung aufbauen. Eine Apotheke, die durch ein spezielles Erscheinungsbild und exklusive Produkte auffällt, hebt sich von der Maße ab."
+            }
+        ]
+    },
     "list": {
-        "title": "… aber ihre Marketingmaßnahmen sind wirkungslos wenn…",
+        "title": "…aber ihre Marketingmaßnahmen sind wirkungslos wenn…",
         "items": [
             {
                 "title": "...branchenfremde Werbeagenturen beauftragen:",
@@ -56,28 +87,28 @@
     "steps": [
         {
             "logo": "step1.svg",
-            "title": "Schritt 1",
+            "title": "1",
             "subtitle": "Setzen Sie sich jetzt mit unseren Marketing-Coach zusammen.",
             "description": "Wir kommen persönlich vorbei und erklären wie wir arbeiten und warum wir so viele Apotheken mit unsere Erfahrung und Wissen zum Erfolg geholfen haben."
         },
         {
             "logo": "step2.svg",
-            "title": "Schritt 2",
-            "subtitle": "Bekomme ein Marketing-Plan welches auf ihre Apotheke zugeschnitten ist.",
-            "description": "Wir arbeiten mit Ihnen zusammen ein Marketing-Strategie aus."
+            "title": "2",
+            "subtitle": "Erhalten Sie einen Marketing-Plan, der auf Ihre Apotheke zugeschnitten ist.",
+            "description": "Wir erarbeiten zusammen mit Ihnen eine maßgeschneiderte Marketing-Strategie. Sie profitieren dabei vun unserer langjährigen Erfahrung. "
         },
         {
             "logo": "step3.svg",
-            "title": "Schritt 3",
-            "subtitle": "Genieße mehr Verkäufe, um ihre Geschäft zu stärken.",
-            "description": "Unsere einzigartige and persönliche Prozesse gibt"
+            "title": "3",
+            "subtitle": "Genießen Sie mehr Privatferkäufe und stärkere Kundenbindung, um ihr Geschäft zu stärken.",
+            "description": "Sie erleben die Vorteile einer starken Apotheken-Marke und genießen eine steigende Kundentreue."
         }
     ],
     "clients": [
         {
             "image": "client1.webp",
-            "name": "Kunde 1 mit langem Namen Asd qswswswsws",
-            "description": "„Wir haben unseren Kundenfrequenz innerhalb von 2 Jahren verdreifacht!„",
+            "name": "Dr. Mag. pharm. Susanne Marie KIRSCHNER-HOFSTÄTTER MBA, BA",
+            "description": "„Wir haben unseren Kundenfrequenz innerhalb Jahren verdreifacht!„",
             "logo": "client-logo1.png",
             "link_url": "https://www.bocom.at",
             "link": "Apotheke Mariahilf"
@@ -85,7 +116,15 @@
         {
             "image": "client1.webp",
             "name": "Kunde 1 mit langem Namen Asd qswswswsws",
-            "description": "„Wir haben unseren Kundenfrequenz innerhalb von 2 Jahren verdreifacht!„",
+            "description": "„Wir haben unseren Kundenfrequenz innerhalb s verdreifacht!„",
+            "logo": "client-logo1.png",
+            "link_url": "https://www.bocom.at",
+            "link": "Apotheke Mariahilf"
+        },
+        {
+            "image": "client1.webp",
+            "name": "Dr. Mag. pharm. Susanne Marie KIRSCHNER-HOFSTÄTTER MBA, BA",
+            "description": "„Wir haben unseren von 2 Jahren verdreifacht!„",
             "logo": "client-logo1.png",
             "link_url": "https://www.bocom.at",
             "link": "Apotheke Mariahilf"
@@ -93,15 +132,7 @@
         {
             "image": "client1.webp",
             "name": "Kunde 1 mit langem Namen Asd qswswswsws",
-            "description": "„Wir haben unseren Kundenfrequenz innerhalb von 2 Jahren verdreifacht!„",
-            "logo": "client-logo1.png",
-            "link_url": "https://www.bocom.at",
-            "link": "Apotheke Mariahilf"
-        },
-        {
-            "image": "client1.webp",
-            "name": "Kunde 1 mit langem Namen Asd qswswswsws",
-            "description": "„Wir haben unseren Kundenfrequenz innerhalb von 2 Jahren verdreifacht!„",
+            "description": "„Wir haben unseren innerhalb von 2 Jahren verdreifacht! innerhalb von 2 Jahren verdreifacht! innerhalb von 2 Jahren verdreifacht!„",
             "logo": "client-logo1.png",
             "link_url": "https://www.bocom.at",
             "link": "Apotheke Mariahilf"

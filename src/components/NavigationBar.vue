@@ -38,7 +38,7 @@ function handleScroll() {
             <div v-for="link in props.links" :key="link.text">
                 <a :href="link.link" class="nav-link">{{ link.text }}</a>
             </div>
-            <CallToActionButton>JETZT ANRUFEN</CallToActionButton>
+            <CallToActionButton>RÜCKRUF ANFORDERN</CallToActionButton>
         </div>
     </div>
 </template>

@@ -11,13 +11,13 @@ const props = defineProps<{
     <div class="list-container">
         <h2 class="list-title">{{ title }}</h2>
         <div class="list-item" v-for="(item, index) in props.items" :key="index">
-            <img :src="'/img/negative-sign-inside-circle.svg'" alt="Icon" class="icon" />
+            <!-- <img :src="'/img/negative-sign-inside-circle.svg'" alt="Icon" class="icon" /> -->
             <div class="text-content">
                 <h3 class="item-title">{{ item.title }}</h3>
                 <p class="item-description">{{ item.description }}</p>
             </div>
         </div>
-        <CallToActionButton>JETZT ANRUFEN</CallToActionButton>
+        <CallToActionButton>RÜCKRUF ANFORDERN</CallToActionButton>
     </div>
 </template>
 
@@ -26,15 +26,17 @@ const props = defineProps<{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 800px;
+    width: 1200px !important;
     margin: 0 auto;
     padding-top: 5rem;
     padding-bottom: 3rem;
+    color: var(--primary-color);
 }
 
 .list-title {
+    text-transform: uppercase;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: var(--h2-lg-size);
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -58,14 +60,31 @@ const props = defineProps<{
 }
 
 .item-title {
-    font-size: 1.5rem;
+    text-align: left;
+    font-size: var(--h3-lg-size);
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .item-description {
-    font-size: 1.25rem;
-    color: #555;
+    text-align: left;
+    font-size: var(--h3-lg-size);
+    color: var(--primary-color);
+}
+
+@media (max-width: 2100px) {
+    .list-container {
+        max-width: 1200px;
+    }
+    .list-title {
+        font-size: var(--h2-md-size);
+    }
+    .item-title {
+        font-size: var(--h3-md-size);
+    }
+    .item-description {
+        font-size: var(--h3-md-size);
+    }
 }
 
 @media (max-width: 768px) {

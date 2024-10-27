@@ -3,4 +3,20 @@
     --primary-button-text: #ffff;
     --primary-button-color-hover: #8336a9;
     --secondary-color: #fae9dd;
+
+    --orange-color: #e36929;
+
+    --h1-lg-size: 4rem;
+    --h1-md-size: 2.5rem;
+
+    --h2-lg-size: 2.5rem;
+    --h2-md-size: 2rem;
+
+    --h3-lg-size: 2rem;
+    --h3-md-size: 1.5rem;
+
+    --subtitle-size: 2rem;
+    --list-title-size: 1.5rem;
+
+    --description-size: 1.2rem;
 }

@@ -20,13 +20,13 @@ const props = defineProps<{
                 <img :src="'/public/img/' + client.image" alt="Kunde" class="client-image" />
                 <div class="card-body">
                     <h3 class="client-name">{{ client.name }}</h3>
+                    <a :href="client.link_url" class="link-button"> {{ client.link }} </a>
                     <h4 class="client-description">{{ client.description }}</h4>
                     <img
                         :src="'/public/img/' + client.logo"
                         alt="Kunden Logo"
                         class="client-logo"
                     />
-                    <a :href="client.link_url" class="link-button"> {{ client.link }} </a>
                 </div>
             </div>
         </div>
@@ -45,8 +45,10 @@ const props = defineProps<{
 }
 
 .title {
+    color: var(--primary-color);
+    text-transform: uppercase;
     text-align: center;
-    font-size: 2rem;
+    font-size: var(--h2-lg-size);
     margin-bottom: 3rem;
 }
 
@@ -60,33 +62,35 @@ const props = defineProps<{
 }
 
 .client-card {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     border-radius: 15px;
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 350px;
+    max-width: 350px;
 }
 
 .card-body {
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .client-name {
     text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: var(--primary-color);
+    font-size: var(--h3-md-size);
+    color: white;
 }
 
 .client-description {
+    color: white;
     text-align: center;
+    font-size: var(--description-size);
 }
 
 .client-image {
     object-fit: cover;
     height: 250px;
-    width: 300px;
+    width: 350px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 0;
@@ -96,19 +100,19 @@ const props = defineProps<{
 .client-logo {
     margin: 0 auto;
     width: 70%;
-    mix-blend-mode: darken;
+    mix-blend-mode: none;
 }
 
 .link-button {
     margin: 0 auto;
-    font-size: 1.2rem;
-    color: var(--primary-color);
-    padding: 10px;
+    font-size: var(--description-size);
+    color: white;
+
     text-decoration: none;
 }
 
 .client-card:first-child {
-    margin-left: 25%;
+    margin-left: 20%;
 }
 
 .client-card:last-child {
@@ -117,7 +121,7 @@ const props = defineProps<{
 
 .step-description {
     font-size: 1rem;
-    color: #333;
+    color: white;
 }
 
 @media (max-width: 768px) {
